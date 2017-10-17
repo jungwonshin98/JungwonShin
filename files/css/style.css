@@ -16,7 +16,8 @@ body {
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	text-align: left;
+	text-indent: 5px;
 	position: relative;
 }
 
@@ -109,4 +110,21 @@ p {
 .main-nav a:hover {
 	background-color: #D3D3D3;
 	color: #ffffff;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+	img{
+		width: 85%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	img{
+		width: 90%;
+		height: auto;
+	}
+
+
 }
