@@ -17,6 +17,7 @@ body {
 	margin: 0;
 	padding: 0;
 	position: relative;
+	text-align: left;
 }
 
 html,body {
@@ -77,7 +78,7 @@ p {
   word-spacing: 1px;
   letter-spacing: 1px;
 	text-align: left;
-	text-indent: 5px;
+	text-indent: 10px;
 	padding: 0 50px;
 }
 
