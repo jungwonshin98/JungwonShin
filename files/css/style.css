@@ -17,7 +17,7 @@ body {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	text-align: center;
+	text-align: left;
 }
 
 html,body {
@@ -37,6 +37,10 @@ div {
 
 iframe {
 	border: 0px;
+}
+
+img {
+	margin-bottom: 10px;
 }
 
 /* Typography
@@ -78,10 +82,13 @@ p {
   word-spacing: 1px;
   letter-spacing: 1px;
 	padding: 0 50px;
+	text-align: left;
+	margin-bottom: 10px;
 }
 
 #quote, .contact, .description {
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 
